@@ -1,0 +1,390 @@
+body {
+    overflow-x: hidden;
+    color: #3f6056;
+}
+
+p {
+    font-size: 20px;
+    color: #3f6056;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+    color: #3f6056;
+
+
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 100;
+    text-decoration: underline;
+    color: #3f6056;
+}
+
+
+.img-centered {
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    color: #3f6056;
+    background: #ffffff;
+    margin-left:-120px;
+    margin-top:-100px;
+    margin-bottom: 100px;
+}
+
+#imageCaption {
+    background-image: url("img/prototipo-01.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    
+}   
+
+#caption {
+    width:100%; 
+    background-color: #84bfb0; 
+    margin-top:-100px;
+    padding-bottom:50px; 
+    padding-top:50px;
+    z-index: 2;
+}
+
+header img {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+header .intro-text .name {
+    display: block;
+    text-transform: uppercase;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 2em;
+    font-weight: 100;
+    color: #3f6056;
+}
+
+header .intro-text .skills {
+    font-size: 1.25em;
+    font-weight: 100;
+
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #3f6056;
+}
+
+
+@media(min-width:768px) {
+    header .container {
+        padding-top: 200px;
+        padding-bottom: 100px;
+    }
+
+    header .intro-text .name {
+        font-size: 4.75em;
+    }
+
+    header .intro-text .skills {
+        font-size: 1.75em;
+
+    }
+    .nav
+}
+
+@media(min-width:768px) {
+        
+    .navbar-fixed-top {
+        padding: 25px 0;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+            color: #3f6056;
+
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+            color: #3f6056;
+
+    }
+
+    .navbar-fixed-top.navbar-shrink {
+        padding: 10px 0;
+            color: #3f6056;
+
+    }
+
+    .navbar-fixed-top.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+
+    }
+}
+#nav {
+        background-color:#ffffff;     
+
+        color: #3f6056;
+}
+
+
+.navbar {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 100;
+        color: #3f6056;
+
+
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+
+}
+
+.page-scroll {
+   margin-left:120px;
+}
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.navbar a:focus {
+    outline: 0;
+        color: #3f6056;
+
+
+}
+
+.navbar .navbar-nav {
+    letter-spacing: 1px;
+        color: #3f6056;
+
+}
+
+
+.navbar .navbar-nav li a:focus {
+    outline: 0;
+        color: #3f6056;
+
+}
+
+.navbar-default,
+.navbar-inverse {
+    border: 0;
+        color: #3f6056;
+
+}
+section {
+    padding: 60px 0;
+}
+
+
+section h2 {
+    margin-top: -50px;
+    font-size: 1.5em;
+    margin-bottom: 50px;
+     
+
+}
+
+section.success {
+    color: #3f6056;
+    background: #ffffff;
+}
+
+@media(max-width:767px) {
+    section {
+        padding: 75px 0;
+    }
+
+    section.first {
+        padding-top: 75px;
+    }
+    .navbar>img{
+        width: 200px;
+    }
+}
+
+
+#portfolio .portfolio-item {
+    right: 0;
+    margin: 0 0 15px;
+
+  border-style: solid;
+    border-width: 1px;
+}
+
+#portfolio .portfolio-item .portfolio-link {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+
+}
+
+#portfolio .portfolio-item .portfolio-link .caption {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: #ffffff;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+}
+
+#portfolio .portfolio-item .portfolio-link .caption:hover {
+    opacity: 0.7;
+}
+
+#portfolio .portfolio-item .portfolio-link .caption .caption-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 20px;
+    margin-top: -12px;
+    text-align: center;
+    font-size: 20px;
+
+    color: #3f6056;
+}
+
+#portfolio .portfolio-item .portfolio-link .caption .caption-content i {
+    margin-top: -12px;
+}
+
+#portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
+#portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
+    margin: 0;
+}
+
+#portfolio * {
+    z-index: 2;
+}
+
+@media(min-width:767px) {
+    #portfolio .portfolio-item {
+        margin: 0 0 30px;
+    }
+}
+
+.arrow-down {
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    margin-left: 48%;
+    
+}
+#azul {
+    border-top: 20px solid #84bfb0;
+}
+#laranja {
+    border-top: 20px solid #f1c8ae;
+}
+
+#rect {
+    width: 100%;
+    height: 180px;
+    background-color: #f1c8ae;
+    margin-top:-180px;
+}
+
+.scroll-top {
+    z-index: 1049;
+    position: fixed;
+    right: 2%;
+    bottom: 2%;
+    width: 50px;
+    height: 50px;
+}
+
+.scroll-top .btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.scroll-top .btn:focus {
+    outline: 0;
+}
+
+.portfolio-modal .modal-content {
+    padding: 100px 0;
+    min-height: 100%;
+    border: 0;
+    border-radius: 0;
+    text-align: center;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.portfolio-modal .modal-content h2 {
+    margin: 0;
+    font-size: 3em;
+}
+
+.portfolio-modal .modal-content img {
+    margin-bottom: 30px;
+}
+
+.portfolio-modal .modal-content .item-details {
+    margin: 30px 0;
+}
+
+.portfolio-modal .close-modal {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.portfolio-modal .close-modal:hover {
+    opacity: .3;
+}
+
+.portfolio-modal .close-modal .lr {
+    z-index: 1051;
+    width: 1px;
+    height: 75px;
+    margin-left: 35px;
+    background-color: #2c3e50;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.portfolio-modal .close-modal .lr .rl {
+    z-index: 1052;
+    width: 1px;
+    height: 75px;
+    background-color: #2c3e50;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
